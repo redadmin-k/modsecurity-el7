@@ -1,22 +1,22 @@
-2026-07-06 13:49:57,170 - Mock Version: 6.7
-2026-07-06 13:49:57,174 - Start(bootstrap): chroot init
-2026-07-06 13:49:57,377 - Start(bootstrap): cleaning package manager metadata
-2026-07-06 13:49:57,378 - Finish(bootstrap): cleaning package manager metadata
-2026-07-06 13:50:01,599 - Finish(bootstrap): chroot init
-2026-07-06 13:50:01,600 - Start: chroot init
-2026-07-06 13:50:01,607 - Start: cleaning package manager metadata
-2026-07-06 13:50:01,609 - Finish: cleaning package manager metadata
-2026-07-06 13:50:01,889 - Start: installing minimal buildroot with yum
-2026-07-06 14:00:20,607 - Finish: installing minimal buildroot with yum
-2026-07-06 14:00:23,506 - Start: creating root cache
-2026-07-06 14:00:31,939 - Finish: creating root cache
-2026-07-06 14:00:32,016 - Finish: chroot init
-2026-07-06 14:00:32,334 - Start: build phase for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-06 14:00:32,335 - Start: build setup for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-06 14:50:12,719 - Finish: build setup for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-06 14:50:12,721 - Start: rpmbuild modsecurity-3.0.16-1.el8.src.rpm
-2026-07-06 14:50:12,721 - Start: Outputting list of installed packages
-2026-07-06 14:50:13,086 - Finish: Outputting list of installed packages
-2026-07-06 15:20:26,490 - Finish: rpmbuild modsecurity-3.0.16-1.el8.src.rpm
-2026-07-06 15:20:44,522 - Finish: build phase for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-06 15:20:44,526 - Finish: run
+2026-07-06 22:37:22,123 - Mock Version: 6.7
+2026-07-06 22:37:22,126 - Start(bootstrap): chroot init
+2026-07-06 22:37:24,671 - Start(bootstrap): cleaning package manager metadata
+2026-07-06 22:37:24,673 - Finish(bootstrap): cleaning package manager metadata
+2026-07-06 22:41:08,489 - Finish(bootstrap): chroot init
+2026-07-06 22:41:08,489 - Start: chroot init
+2026-07-06 22:41:08,494 - Start: unpacking root cache
+2026-07-06 22:41:19,062 - Finish: unpacking root cache
+2026-07-06 22:41:19,064 - Start: cleaning package manager metadata
+2026-07-06 22:41:19,068 - Finish: cleaning package manager metadata
+2026-07-06 22:41:34,068 - Start: yum update
+2026-07-06 22:43:35,553 - Finish: yum update
+2026-07-06 22:49:52,405 - Finish: chroot init
+2026-07-06 22:49:52,405 - Start: build phase for modsecurity-3.0.16-1.el8.src.rpm
+2026-07-06 22:49:52,405 - Start: build setup for modsecurity-3.0.16-1.el8.src.rpm
+2026-07-06 23:36:46,438 - Finish: build setup for modsecurity-3.0.16-1.el8.src.rpm
+2026-07-06 23:36:46,441 - Start: rpmbuild modsecurity-3.0.16-1.el8.src.rpm
+2026-07-06 23:36:46,442 - Start: Outputting list of installed packages
+2026-07-06 23:36:46,797 - Finish: Outputting list of installed packages
+2026-07-07 00:05:47,687 - Finish: rpmbuild modsecurity-3.0.16-1.el8.src.rpm
+2026-07-07 00:06:48,060 - Finish: build phase for modsecurity-3.0.16-1.el8.src.rpm
+2026-07-07 00:06:48,448 - Finish: run

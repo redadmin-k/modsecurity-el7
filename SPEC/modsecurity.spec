@@ -14,7 +14,6 @@ BuildRequires:  devtoolset-11-gcc
 BuildRequires:  devtoolset-11-gcc-c++
 BuildRequires:  devtoolset-11-libstdc++-devel
 BuildRequires:  pkgconfig
-Requires:       devtoolset-11-libstdc++-devel
 %else
 BuildRequires:  gcc
 BuildRequires:  gcc-c++
@@ -92,7 +91,10 @@ export CC=gcc
 export CXX=g++
 export CFLAGS="%{optflags}"
 export CXXFLAGS="%{optflags} -std=gnu++17"
-export LDFLAGS="${LDFLAGS:-} -Wl,-rpath,/opt/rh/devtoolset-11/root/usr/lib64"
+export LDFLAGS="${LDFLAGS:-} -static-libstdc++ -static-libgcc"
+%else
+export CFLAGS="%{optflags}"
+export CXXFLAGS="%{optflags}"
 %endif
 
 ./build.sh
