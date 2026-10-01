@@ -1,5 +1,5 @@
 Name:           modsecurity
-Version:        3.0.16
+Version:        3.0.17
 Release:        1%{?dist}
 Summary:        ModSecurity v3 library installed under /opt/modsecurity
 
@@ -217,6 +217,13 @@ test -f %{buildroot}%{modsec_prefix}/share/unicode.mapping || {
 %config(noreplace) %{_sysconfdir}/ld.so.conf.d/modsecurity.conf
 
 %changelog
+* Thu Oct 01 2026 Akiyoshi Kurita <weibu@redadmin.org> - 3.0.17-1
+- Update to ModSecurity v3.0.17
+- Fix multiple security vulnerabilities and WAF inspection bypasses
+- Fix XML request body processing, multipart parsing, response body inspection,
+  transformation handling, and remote rules TLS verification issues
+- Rebuild complete source archive with submodules
+
 * Wed Jul 01 2026 Akiyoshi Kurita <weibu@redadmin.org> - 3.0.16-1
 - Update to ModSecurity v3.0.16
 - Rebuild complete source archive with submodules
