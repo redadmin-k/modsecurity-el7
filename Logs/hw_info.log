@@ -29,11 +29,11 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
 
 Memory:
               total        used        free      shared  buff/cache   available
-Mem:          3.6Gi       528Mi       116Mi        32Mi       2.9Gi       2.8Gi
-Swap:         4.0Gi       317Mi       3.6Gi
+Mem:          3.6Gi       996Mi       117Mi        14Mi       2.5Gi       2.3Gi
+Swap:         4.0Gi        12Mi       3.9Gi
 
 
 Storage (chroot, cache_topdir):
 Filesystem     Type  Size  Used Avail Use% Mounted on
-/dev/vda3      xfs    49G   24G   25G  50% /
-/dev/vda3      xfs    49G   24G   25G  50% /
+/dev/vda3      xfs    49G   26G   24G  52% /
+/dev/vda3      xfs    49G   26G   24G  52% /
